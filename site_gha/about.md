@@ -33,3 +33,8 @@ Even if a plugin or themes written for Jekyll 3 installs and runs without error 
 See the [Upgrading from 3x to 4x](https://jekyllrb.com/docs/upgrading/3-to-4/) guide to see what changes there are.
 
 See also issue [#651](https://github.com/github/pages-gem/issues/651) on the Pages Gem which deals with adding Jekyll 4 support to Github Pages.
+---
+layout: page
+title: About
+permalink: /about/
+---

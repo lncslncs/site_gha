@@ -1,0 +1,65 @@
+title: Lilly's Site
+description: "Created with Persephone Theme"
+
+url: "https://lncslncs.github.io"
+baseurl: "/site_gha"
+
+github_username: lncslncs
+
+markdown: kramdown
+theme: jekyll-theme-persephone
+plugins:
+  - jekyll-books
+  - jekyll-feed
+
+# Theme Settings
+logo: 
+rss: "/feed.xml"
+theme: 'jekyll-theme-persephone'
+theme_setting:
+  blog_page: "blog/index.md"
+  about_page: "about.md"
+  archive_page: "archive.md"
+  nav_pages:
+    - "about.md"
+    - "archive.md"
+  lang:
+    category_all: "Blog"
+    blog_title: "Lilly Makes Stuff"
+    comment:
+      user: "lncslncs"
+      email: "lncslncs"
+      url: "lncslncs"
+      message: "Send a message..."
+      reply: "reply"
+comment:
+  enabled: true
+  provider: "static"
+  static:
+    postUrl: "https://jekyll-comment-server.herokuapp.com/post-comment"
+smiley:
+  enabled: true
+head_code: |
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?3176e6e675ed7773f831e38c7a57880f";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
