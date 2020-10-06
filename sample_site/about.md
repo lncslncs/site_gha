@@ -1,5 +1,5 @@
 ---
-title: About Actions
+title: About Actions - Lilly's site
 layout: page
 ---
 
